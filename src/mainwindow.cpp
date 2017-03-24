@@ -27,6 +27,8 @@ MainWindow::MainWindow(QWidget *parent) :
     ui(new Ui::MainWindow)
 {
     ui->setupUi(this);
+    ui->splitter->setStretchFactor(0,0);
+    ui->splitter->setStretchFactor(1,1);
 //    showFullScreen();
 //    auto const desktop(QApplication::desktop());
 //    setGeometry(desktop->screenGeometry(2).adjusted(0,30,0,-50));
