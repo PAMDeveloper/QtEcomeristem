@@ -14,7 +14,7 @@
 #include <QVBoxLayout>
 #include <QTabWidget>
 
-#include <samara/model/kernel/Model.hpp>
+#include <model/kernel/KernelModel.hpp>
 
 #include <QDebug>
 
